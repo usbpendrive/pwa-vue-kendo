@@ -1,22 +1,18 @@
 <template>
   <div id="app">
-    <header>
-      <span>Vue.js PWA</span>
-    </header>
-    <main>
-      <img src="./assets/logo.png" alt="Vue.js PWA">
-      <hello></hello>
-    </main>
+    <h1>EIV</h1>
+    <h4>emoticons in view</h4>
+    <emotion-input></emotion-input>
   </div>
 </template>
 
 <script>
-import Hello from './components/Hello'
+import EmotionInput from './components/EmotionInput'
 
 export default {
   name: 'app',
   components: {
-    Hello
+    EmotionInput
   }
 }
 </script>
