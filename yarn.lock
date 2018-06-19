@@ -78,6 +78,50 @@
     lodash "^4.2.0"
     to-fast-properties "^2.0.0"
 
+"@progress/kendo-base-components-vue-wrapper@2018.2.516":
+  version "2018.2.516"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-base-components-vue-wrapper/-/kendo-base-components-vue-wrapper-2018.2.516.tgz#8067bda44a8cfad38466da3e46e68f5583155ebc"
+
+"@progress/kendo-buttons-vue-wrapper@^2018.2.516":
+  version "2018.2.516"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-buttons-vue-wrapper/-/kendo-buttons-vue-wrapper-2018.2.516.tgz#a070bbac6a023a07e3720c5c50b5621cacdc5746"
+  dependencies:
+    "@progress/kendo-base-components-vue-wrapper" "2018.2.516"
+
+"@progress/kendo-charts-vue-wrapper@^2018.2.516":
+  version "2018.2.516"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-charts-vue-wrapper/-/kendo-charts-vue-wrapper-2018.2.516.tgz#aa1c3d457d201da24b704d19eb1ca8a3a36043a7"
+  dependencies:
+    "@progress/kendo-base-components-vue-wrapper" "2018.2.516"
+
+"@progress/kendo-dateinputs-vue-wrapper@^2018.2.516":
+  version "2018.2.516"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-dateinputs-vue-wrapper/-/kendo-dateinputs-vue-wrapper-2018.2.516.tgz#5ecea6bbb60654f2b971317355d26eaa883800ac"
+  dependencies:
+    "@progress/kendo-base-components-vue-wrapper" "2018.2.516"
+
+"@progress/kendo-dropdowns-vue-wrapper@^2018.2.516":
+  version "2018.2.516"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-dropdowns-vue-wrapper/-/kendo-dropdowns-vue-wrapper-2018.2.516.tgz#95ae9a6c2a5e87848488cec8af017f210782a116"
+  dependencies:
+    "@progress/kendo-base-components-vue-wrapper" "2018.2.516"
+
+"@progress/kendo-theme-default@^2.54.0":
+  version "2.54.0"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-theme-default/-/kendo-theme-default-2.54.0.tgz#79c415a36cd89c1dc6482da26a222cabba4c52be"
+
+"@progress/kendo-theme-material@^1.1.3":
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-theme-material/-/kendo-theme-material-1.1.3.tgz#27431c28e2c1fecda2ff4b123510de680f800c96"
+  dependencies:
+    "@progress/kendo-theme-default" "^2.54.0"
+
+"@progress/kendo-ui@^2018.2.613":
+  version "2018.2.613"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-ui/-/kendo-ui-2018.2.613.tgz#321c81a180571e5ac67608f9d5ceb431100dd598"
+  dependencies:
+    jquery "<=3"
+
 abbrev@1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
@@ -3294,6 +3338,10 @@ isobject@^2.0.0:
 isobject@^3.0.0, isobject@^3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/isobject/-/isobject-3.0.1.tgz#4e431e92b11a9731636aa1f9c8d1ccbcfdab78df"
+
+jquery@<=3:
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.3.1.tgz#958ce29e81c9790f31be7792df5d4d95fc57fbca"
 
 js-base64@^2.1.9:
   version "2.4.5"
