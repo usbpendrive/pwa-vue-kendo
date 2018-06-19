@@ -83,4 +83,17 @@ export default {
   }
 }
 </script>
-<style></style>
+
+<style>
+.emotion-box {
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: 0 auto;
+  min-width: 600px;
+  padding: 15px;
+  width: 47%;
+}
+
+.k-chart {
+  width: 90%;
+}
+</style>
